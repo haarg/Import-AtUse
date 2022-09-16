@@ -72,7 +72,7 @@ are pragmas.
 
 Exporting on someone else's behalf is harder.  The exporters don't provide a
 consistent API for this, and pragmas need to have their import method called
-directly (not in an C<eval "">), since they effect the current unit of
+directly (not in an C<eval "">), since they affect the current unit of
 compilation.
 
 C<Import::AtUse> provides global methods to make this painless.
