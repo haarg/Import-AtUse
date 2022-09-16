@@ -116,7 +116,7 @@ currently compiling level, this will be inconsistent. B<Import::AtUse> fixes
 this by always exporting to the same location that the lexical effect will
 apply. B<Import::Into> also loads the module to be imported. It is the opinion
 of the author of B<Import::AtUse> that this is a mistake, and the only
-difference between an B<import> and B<import::at_use> call should be the
+difference between an C<import> and C<import::at_use> call should be the
 apparent calling location.
 
 =back
